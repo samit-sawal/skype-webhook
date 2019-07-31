@@ -27,7 +27,7 @@ app.post('/webhook', (req, res) => {
 app.get('/webhook', (req, res) => {
   
   
-      res.status(200).send('return from get webhook');
+      res.status(200).send('return from get in webhook');
     
     
   
